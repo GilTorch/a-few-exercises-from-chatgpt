@@ -1,8 +1,8 @@
 const anagramChecker = (word1, word2) => {
 
     // check that they have the same length;
-    let finalWord1 = word1.toLowerCase().trim().replace(/\s/g,"");
-    let finalWord2 = word2.toLowerCase().trim().replace(/\s/g,"");
+    let finalWord1 = word1.toLowerCase().replace(/\s/g,"");
+    let finalWord2 = word2.toLowerCase().replace(/\s/g,"");
     
     if(finalWord1.length !== finalWord2.length) {
         return false;
